@@ -1,0 +1,2 @@
+*.csv.bz2 filter=lfs diff=lfs merge=lfs -text
+benchmark_datasets/* filter=lfs diff=lfs merge=lfs -text
