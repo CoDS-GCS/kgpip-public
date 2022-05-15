@@ -13,7 +13,7 @@ kgpip.predict(X_test)
 
 
 ## Reproducing Our Results
-To reproduce our results, you can use [evaluate_automl_systems.py](experiments/evaluate_automl_systems.py), 
+To reproduce our results, you can use [evaluate_automl_systems.py](experiments/evaluate_automl_systems.py),
 to test all systems (KGpipFLAML, KGpipAutoSklearn, FLAML, AutoSklearn, VolcanoML) on all 121 benchmark datasets.
 
 Example usage:
@@ -21,7 +21,7 @@ Example usage:
 ```
 python evaluate_automl_systems.py --time 3600 --dataset-id 39 --system KGpipFLAML
 ```
-Which evalutes KGpipFLAML on dataset #39 with a time budget of 1 hour. Dataset IDs and info can be found in [benchmark_datasets](benchmark_datasets) 
+Which evalutes KGpipFLAML on dataset #39 with a time budget of 1 hour. Dataset IDs and info can be found in [benchmark_datasets](benchmark_datasets)
 
 For more help on possible arguments and values:
 ```
@@ -34,10 +34,14 @@ Create `kgpip` Conda environment (Python 3.7) and install pip requirements. Or u
 ```
 . ./init.sh
 ```
-Note: 
+Note:
 * The `kgpip` environment needs to be active to run the system and the provided scripts: `conda activate kgpip`
 * PyTorch and DGL are installed for CUDA 11.1. Adjust [requirements.txt](requirements.txt) to match your architecture.
 While the code is tested on a GPU machine, it should work fine on CPU only.
+
+## Benchmark Datasets
+We used a collection of 121 benchmark datasets. The datasets and their information can be found in [benchmark_datasets](benchmark_datasets).
+The datasets need to be extracted in their respective directories before evaluation.
 
 ## Training the Graph Generator
 ### TODO: To be tested.
@@ -48,14 +52,14 @@ The [training](training) directory contains the needed scripts to:
 3. Train the graph generation model.
 
 ### Training Set Collection and Cleaning:
-[fetch_and_clean_pipeline_graphs.py](training/fetch_and_clean_pipeline_graphs.py) queries an Apache Jena SPARQL 
-endpoint on GraphGen4Code graphs are loaded. The graphs are cleaned by removing noisy nodes and edges. 
-The cleaned graphs are saved to be used for training. 
+[fetch_and_clean_pipeline_graphs.py](training/fetch_and_clean_pipeline_graphs.py) queries an Apache Jena SPARQL
+endpoint on GraphGen4Code graphs are loaded. The graphs are cleaned by removing noisy nodes and edges.
+The cleaned graphs are saved to be used for training.
 
 ### Training Args:
 Training Arguments can be found in [args.py](args.py).
 
-Most important ones are: 
+Most important ones are:
 
 * `graph_type`: name of the dataset. The 11K Kaggle scripts dataset has the name: `graph4code_large`
 * `feat_size`: size of the node and edge embeddings.
@@ -76,5 +80,3 @@ python train_graph_generation_model.py
 
 ## Notes
 - The implementation of the graph neural network is in PyTorch and based on [GraphGen](https://github.com/idea-iitd/graphgen).
-
-

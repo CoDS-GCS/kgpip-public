@@ -31,7 +31,7 @@ kaggle_datasets/*
 !kaggle_datasets/extract_zips.py
 benchmark_datasets/*
 !benchmark_datasets/benchmark_datasets_info.csv
-!benchmark_datasets/benchmark_datasets.md
+!benchmark_datasets/README.md
 
 flaml.log
 autosklearn.log
