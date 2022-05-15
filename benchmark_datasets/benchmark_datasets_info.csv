@@ -1,0 +1,122 @@
+ID,base_dir,name,is_regression,target,sort_priority,task,source,papers
+1,benchmark_datasets,adult,False,class,1,binary,AutoML,"FLAML, AL"
+2,benchmark_datasets,airlines,False,Delay,1,binary,AutoML,FLAML
+3,benchmark_datasets,albert,False,class,1,binary,AutoML,FLAML
+4,benchmark_datasets,Amazon_employee_access,False,target,1,binary,AutoML,FLAML
+5,benchmark_datasets,APSFailure,False,class,1,binary,AutoML,FLAML
+6,benchmark_datasets,Australian,False,A15,1,binary,AutoML,FLAML
+7,benchmark_datasets,bank-marketing,False,Class,1,binary,AutoML,FLAML
+8,benchmark_datasets,blood-transfusion-service-center,False,Class,1,binary,AutoML,FLAML
+9,benchmark_datasets,christine,False,class,1,binary,AutoML,FLAML
+10,benchmark_datasets,credit-g,False,class,1,binary,AutoML,FLAML
+11,benchmark_datasets,guillermo,False,class,1,binary,AutoML,FLAML
+12,benchmark_datasets,higgs,False,class,1,binary,AutoML,"FLAML, VolcanoML"
+13,benchmark_datasets,jasmine,False,class,1,binary,AutoML,FLAML
+14,benchmark_datasets,kc1,False,defects,1,binary,AutoML,"FLAML, VolcanoML"
+15,benchmark_datasets,KDDCup09_appetency,False,APPETENCY,1,binary,AutoML,FLAML
+16,benchmark_datasets,kr-vs-kp,False,class,1,binary,AutoML,FLAML
+17,benchmark_datasets,MiniBooNE,False,signal,1,binary,AutoML,FLAML
+18,benchmark_datasets,nomao,False,Class,1,binary,AutoML,FLAML
+19,benchmark_datasets,numerai28.6,False,attribute_21,1,binary,AutoML,FLAML
+20,benchmark_datasets,phoneme,False,Class,1,binary,AutoML,"FLAML, VolcanoML"
+21,benchmark_datasets,riccardo,False,class,1,binary,AutoML,FLAML
+22,benchmark_datasets,sylvine,False,class,1,binary,AutoML,FLAML
+23,benchmark_datasets,car,False,class,1,multi-class,AutoML,FLAML
+24,benchmark_datasets,cnae-9,False,Class,1,multi-class,AutoML,FLAML
+25,benchmark_datasets,connect-4,False,class,1,multi-class,AutoML,FLAML
+26,benchmark_datasets,covertype,False,class,1,multi-class,AutoML,"FLAML, AL"
+27,benchmark_datasets,dilbert,False,class,1,multi-class,AutoML,FLAML
+28,benchmark_datasets,dionis,False,class,1,multi-class,AutoML,FLAML
+29,benchmark_datasets,fabert,False,class,1,multi-class,AutoML,FLAML
+30,benchmark_datasets,Fashion-MNIST,False,class,1,multi-class,AutoML,FLAML
+31,benchmark_datasets,helena,False,class,1,multi-class,AutoML,FLAML
+32,benchmark_datasets,jannis,False,class,1,multi-class,AutoML,FLAML
+33,benchmark_datasets,jungle_chess_2pcs_raw_endgame_complete,False,class,1,multi-class,AutoML,FLAML
+34,benchmark_datasets,mfeat-factors,False,class,1,multi-class,AutoML,FLAML
+35,benchmark_datasets,robert,False,class,1,multi-class,AutoML,FLAML
+36,benchmark_datasets,segment,False,class,1,multi-class,AutoML,"FLAML, VolcanoML"
+37,benchmark_datasets,shuttle,False,class,1,multi-class,AutoML,FLAML
+38,benchmark_datasets,vehicle,False,Class,1,multi-class,AutoML,FLAML
+39,benchmark_datasets,volkert,False,class,1,multi-class,AutoML,FLAML
+40,benchmark_datasets,2dplanes,True,target,1,regression,PMLB,FLAML
+41,benchmark_datasets,bng_breastTumor,True,target,1,regression,PMLB,FLAML
+42,benchmark_datasets,bng_echomonths,True,target,1,regression,PMLB,FLAML
+43,benchmark_datasets,bng_lowbwt,True,target,1,regression,PMLB,FLAML
+44,benchmark_datasets,bng_pbc,True,target,1,regression,PMLB,FLAML
+45,benchmark_datasets,bng_pharynx,True,target,1,regression,PMLB,FLAML
+46,benchmark_datasets,bng_pwLinear,True,target,1,regression,PMLB,FLAML
+47,benchmark_datasets,fried,True,target,1,regression,PMLB,FLAML
+48,benchmark_datasets,house_16H,True,target,1,regression,PMLB,FLAML
+49,benchmark_datasets,house_8L,True,target,1,regression,PMLB,FLAML
+50,benchmark_datasets,houses,True,target,1,regression,PMLB,FLAML
+51,benchmark_datasets,mv,True,target,1,regression,PMLB,FLAML
+52,benchmark_datasets,poker,True,target,1,regression,PMLB,FLAML
+53,benchmark_datasets,pol,True,target,1,regression,PMLB,FLAML
+54,benchmark_datasets,breast_cancer_wisconsin,False,target,2,binary,PMLB,AL
+55,benchmark_datasets,detecting-insults-in-social-commentary,False,Insult,2,binary,Kaggle,AL
+56,benchmark_datasets,fri_c1_1000_25,False,binaryClass,2,binary,OpenML,AL
+57,benchmark_datasets,Hill_Valley_with_noise,False,target,2,binary,PMLB,AL
+58,benchmark_datasets,Hill_Valley_without_noise,False,target,2,binary,PMLB,AL
+59,benchmark_datasets,ionosphere,False,target,2,binary,PMLB,AL
+60,benchmark_datasets,MagicTelescope,False,class:,2,binary,OpenML,AL
+61,benchmark_datasets,OVA_Breast,False,Tissue,2,binary,OpenML,AL
+62,benchmark_datasets,pc4,False,c,2,binary,OpenML,"AL, VolcanoML"
+63,benchmark_datasets,quake,False,binaryClass,2,binary,OpenML,"AL, VolcanoML"
+64,benchmark_datasets,sick,False,Class,2,binary,OpenML,"AL, VolcanoML"
+65,benchmark_datasets,spambase,False,target,2,binary,PMLB,"AL, VolcanoML"
+66,benchmark_datasets,titanic,False,Survived,2,binary,Kaggle,AL
+67,benchmark_datasets,car_evaluation,False,target,2,multi-class,PMLB,AL
+68,benchmark_datasets,glass,False,target,2,multi-class,PMLB,AL
+69,benchmark_datasets,kropt,False,game,2,multi-class,OpenML,"AL, VolcanoML"
+70,benchmark_datasets,mnist_784,False,class,2,multi-class,OpenML,"AL, VolcanoML"
+71,benchmark_datasets,sentiment-analysis-on-movie-reviews,False,Sentiment,2,multi-class,Kaggle,AL
+72,benchmark_datasets,splice,False,Class,2,multi-class,OpenML,AL
+73,benchmark_datasets,spooky-author-identification,False,author,2,multi-class,Kaggle,AL
+74,benchmark_datasets,wine_quality_red,False,target,2,multi-class,PMLB,AL
+75,benchmark_datasets,wine_quality_white,False,target,2,multi-class,PMLB,AL
+76,benchmark_datasets,housing-prices,True,SalePrice,2,regression,Kaggle,AL
+77,benchmark_datasets,mercedes-benz-greener-manufacturing,True,y,2,regression,Kaggle,AL
+78,benchmark_datasets,ailerons,False,binaryClass,3,binary,OpenML,VolcanoML
+79,benchmark_datasets,analcatdata_supreme,False,binaryClass,3,binary,OpenML,VolcanoML
+80,benchmark_datasets,bank32nh_833,False,binaryClass,3,binary,OpenML,VolcanoML
+81,benchmark_datasets,cpu_act_761,False,binaryClass,3,binary,OpenML,VolcanoML
+82,benchmark_datasets,cpu_small_735,False,binaryClass,3,binary,OpenML,VolcanoML
+83,benchmark_datasets,delta_ailerons,False,binaryClass,3,binary,OpenML,VolcanoML
+84,benchmark_datasets,delta_elevators,False,binaryClass,3,binary,OpenML,VolcanoML
+85,benchmark_datasets,eeg-eye-state,False,Class,3,binary,OpenML,VolcanoML
+86,benchmark_datasets,electricity,False,class,3,binary,OpenML,VolcanoML
+87,benchmark_datasets,jm1,False,defects,3,binary,OpenML,VolcanoML
+88,benchmark_datasets,kin8nm_807,False,binaryClass,3,binary,OpenML,VolcanoML
+89,benchmark_datasets,mammography,False,class,3,binary,OpenML,VolcanoML
+90,benchmark_datasets,mc1,False,c,3,binary,OpenML,VolcanoML
+91,benchmark_datasets,ozone-level-8hr,False,Class,3,binary,OpenML,VolcanoML
+92,benchmark_datasets,page-blocks,False,binaryClass,3,binary,OpenML,VolcanoML
+93,benchmark_datasets,pollen_871,False,binaryClass,3,binary,OpenML,VolcanoML
+94,benchmark_datasets,puma32H_752,False,binaryClass,3,binary,OpenML,VolcanoML
+95,benchmark_datasets,puma8NH_816,False,binaryClass,3,binary,OpenML,VolcanoML
+96,benchmark_datasets,space_ga_737,False,binaryClass,3,binary,OpenML,VolcanoML
+97,benchmark_datasets,waveform-5000,False,binaryClass,3,binary,OpenML,VolcanoML
+98,benchmark_datasets,wind_847,False,binaryClass,3,binary,OpenML,VolcanoML
+99,benchmark_datasets,abalone,False,Class_number_of_rings,3,multi-class,OpenML,VolcanoML
+100,benchmark_datasets,optdigits,False,class,3,multi-class,OpenML,VolcanoML
+101,benchmark_datasets,pendigits,False,class,3,multi-class,OpenML,VolcanoML
+102,benchmark_datasets,satimage,False,class,3,multi-class,OpenML,VolcanoML
+103,benchmark_datasets,bank32nh_558,True,rej,3,regression,OpenML,VolcanoML
+104,benchmark_datasets,bank8FM,True,rej,3,regression,OpenML,VolcanoML
+105,benchmark_datasets,cpu_act_573,True,usr,3,regression,OpenML,VolcanoML
+106,benchmark_datasets,cpu_small_227,True,usr,3,regression,OpenML,VolcanoML
+107,benchmark_datasets,debutanizer,True,y,3,regression,OpenML,VolcanoML
+108,benchmark_datasets,kin8nm_189,True,y,3,regression,OpenML,VolcanoML
+109,benchmark_datasets,Moneyball,True,RS,3,regression,OpenML,VolcanoML
+110,benchmark_datasets,pollen_529,True,DENSITY,3,regression,OpenML,VolcanoML
+111,benchmark_datasets,puma32H_308,True,thetadd6,3,regression,OpenML,VolcanoML
+112,benchmark_datasets,puma8NH_225,True,thetadd3,3,regression,OpenML,VolcanoML
+113,benchmark_datasets,rainfall_bangladesh,True,Rainfall,3,regression,OpenML,VolcanoML
+114,benchmark_datasets,socmob,True,counts_for_sons_current_occupation,3,regression,OpenML,VolcanoML
+115,benchmark_datasets,space_ga_507,True,ln(VOTES/POP),3,regression,OpenML,VolcanoML
+116,benchmark_datasets,stock,True,company10,3,regression,OpenML,VolcanoML
+117,benchmark_datasets,sulfur,True,y1,3,regression,OpenML,VolcanoML
+118,benchmark_datasets,us_crime,True,ViolentCrimesPerPop,3,regression,OpenML,VolcanoML
+119,benchmark_datasets,weather_izmir,True,Mean_temperature,3,regression,OpenML,VolcanoML
+120,benchmark_datasets,wind_503,True,MAL,3,regression,OpenML,VolcanoML
+121,benchmark_datasets,witmer_census_1980,True,HSPerc,3,regression,OpenML,VolcanoML
