@@ -36,7 +36,7 @@ Create `kgpip` Conda environment (Python 3.7) and install pip requirements. Or u
 ```
 Note: 
 * The `kgpip` environment needs to be active to run the system and the provided scripts: `conda activate kgpip`
-* PyTorch and DGL are installed for CUDA 11.1. Adjust [requirements.txt](requirements.txt) to match your architecture.
+* PyTorch and DGL are installed for CUDA 11.0. Adjust [requirements.txt](requirements.txt) to match your architecture.
 While the code is tested on a GPU machine, it should work fine on CPU only.
 
 ## Benchmark Datasets
