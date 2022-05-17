@@ -323,7 +323,7 @@ class KGpip:
                                                 resampling_strategy_arguments={'folds': 5},
                                                 metric=autosklearn.metrics.r2 if self.is_regression else
                                                        autosklearn.metrics.make_scorer('f1', f1_score, average='macro'),
-                                                tmp_folder=f'{KGPIP_PATH}/autosklearn-{randint(1, 10000000000)}',
+                                                tmp_folder=f'{KGPIP_PATH}/tmp/autosklearn-{randint(1, 10000000000)}',
                                                 seed=self.seed,
                                                 initial_configurations_via_metalearning=0
                                                 )

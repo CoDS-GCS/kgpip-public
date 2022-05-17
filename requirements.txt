@@ -1,8 +1,4 @@
---find-links https://download.pytorch.org/whl/torch_stable.html
---find-links https://data.dgl.ai/wheels/repo.html
 spacy-universal-sentence-encoder
-torch==1.7.0+cu110
-dgl-cu110==0.5.3
 networkx==2.2
 numpy==1.21.2
 scikit-learn==0.24.2
