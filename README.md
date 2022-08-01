@@ -140,8 +140,11 @@ If you find our work useful, please cite it in your research:
          title={A Scalable AutoML Approach Based on Graph Neural Networks}, 
          author={Mossad Helali and Essam Mansour and Ibrahim Abdelaziz and Julian Dolby and Kavitha Srinivas},
          year={2022},
-         journal={ArXiv},
-         url = {https://arxiv.org/abs/2111.00083}
+         journal={Proceedings of the VLDB Endowment},
+         doi={10.14778/3551793.3551804},
+         volume={15},
+         number={11},
+         pages={2428-2436}  
 }
 ```
 
