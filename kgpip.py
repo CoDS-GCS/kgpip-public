@@ -271,7 +271,7 @@ class KGpip:
             # read the graph
             g = pd.read_pickle(graph_file)
             # relabel nodes and edges (use label instead of IDs)
-            node_labels = {n: g.node[n]['label'] for n in g.nodes}
+            node_labels = {n: g.nodes[n]['label'] for n in g.nodes}
             # TODO: is this needed?
             for k, v in node_labels.items():
                 node_labels[k] = v.replace('http://purl.org/twc/', '')
