@@ -1,4 +1,5 @@
-spacy-universal-sentence-encoder
+spacy-universal-sentence-encoder==0.4.5
+spacy==3.1.4
 networkx==2.2
 numpy==1.21.2
 scikit-learn==0.24.2
@@ -14,7 +15,7 @@ FLAML==0.6.3
 mindware==0.5.0
 pandas
 matplotlib
-
+pynisher==0.6.4 
 
 # dataset embedding requirements
 bitstring==3.1.9
